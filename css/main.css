@@ -48,30 +48,36 @@ table {
 	border-spacing: 0;
 }
 body {
-font-family: "Arial";
-font-size: 15px;
-text-align: left;
-line-height: 1.26;
-padding: 10px;
-letter-spacing: 0.03em;
+	font-family: "Arial";
+	font-size: 15px;
+	text-align: left;
+	line-height: 1.26;
+	letter-spacing: 0.03em;
 }
 
 .img {
-position: absolute;
-right: 10px;
-top: 10px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
 }
+
 img {
-width: 400px;
+	width: 400px;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.flex * {
+	width: 25%;
 }
 
 @media (max-width: 812px) {
-		.img {
-			position: relative;
-			margin-top: 28px;
-			right: 0;
-			top: 0;
-		}
 		img {
 			width: 293px;
 		}
