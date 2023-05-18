@@ -88,7 +88,7 @@ img {
 			transform: none;
 			padding: 5px 10px;
 			box-sizing: border-box;*/
-			width: 50%;
+			width: calc(50% - 10px);
 			margin: auto;
 			left: 0;
 			right: 0;
