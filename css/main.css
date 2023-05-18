@@ -66,11 +66,13 @@ width: 400px;
 }
 
 @media (max-width: 812px) {
-		.img {
+		img {
 		position: relative;
 		margin-top: 28px;
 		right: 0;
 		top: 0;
+		width: 300px;
+
 		}
 
 }
