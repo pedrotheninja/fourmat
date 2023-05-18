@@ -88,6 +88,9 @@ img {
 			right: 0;
 			text-align: center;
 		}
+		.img p {
+			max-width: 150px;
+		}
 
 		img {
 			width: 100%;
