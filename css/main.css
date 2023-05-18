@@ -66,13 +66,14 @@ width: 400px;
 }
 
 @media (max-width: 812px) {
+		.img {
+			position: relative;
+			margin-top: 28px;
+			right: 0;
+			top: 0;
+		}
 		img {
-		position: relative;
-		margin-top: 28px;
-		right: 0;
-		top: 0;
-		width: 293px;
-
+			width: 293px;
 		}
 
 }
