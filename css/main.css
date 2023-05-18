@@ -78,8 +78,24 @@ img {
 }
 
 @media (max-width: 812px) {
+		body {
+			font-size: 14px;
+		}
+		.img {
+		/*	top: inherit;
+			bottom: 0;
+			text-align: left;
+			transform: none;
+			padding: 5px 10px;
+			box-sizing: border-box;*/
+			width: 50%;
+			margin: auto;
+			left: 0;
+			right: 0;
+		}
+
 		img {
-			width: 293px;
+			width: 100%;
 		}
 
 }
