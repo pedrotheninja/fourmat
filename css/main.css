@@ -48,16 +48,13 @@ table {
 	border-spacing: 0;
 }
 body {
-font-family: "Times New Roman";
+font-family: "Arial";
 font-size: 15px;
 text-align: left;
 line-height: 1.26;
 padding: 10px;
 letter-spacing: 0.03em;
 }
-/* .flex {
-width: 80%;
-} */
 
 .img {
 position: absolute;
@@ -65,7 +62,7 @@ right: 10px;
 top: 10px;
 }
 img {
-width: 300px;
+width: 400px;
 }
 
 @media (max-width: 812px) {
