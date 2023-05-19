@@ -76,36 +76,6 @@ img {
 .flex * {
 	width: 25%;
 }
-
-/*@media (max-width: 413px) {
-		.flex {
-			flex-direction: column;
-		}
-		.flex * {
-			width: 100%;
-		}
-		.img {
-			top: inherit;
-			bottom: 10px;
-			transform: none;
-			display: flex;
-			gap: 10px;
-			box-sizing: border-box;
-			padding: 0 10px;
-			text-align: right;
-			align-items: flex-end;
-			flex-direction: row-reverse;
-
-		}
-		.img p {
-		width: 50%;
-		}
-
-		img {
-			width: 50%;
-		}
-
-}*/
 @media (max-width: 710px) {
 		.flex {
 			flex-wrap: wrap;
@@ -122,5 +92,15 @@ img {
 		.flex *:nth-child(4) {
 			padding-left: 75%;
 		}
+
+}
+@media (max-width: 302px) {
+		.img {
+			max-width: 50%;
+			margin: auto;
+			left: 0;
+			right: 0;
+		}
+		img {width: 100%}
 
 }
