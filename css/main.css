@@ -78,24 +78,35 @@ img {
 }
 
 @media (max-width: 812px) {
+		.flex {
+			flex-direction: column;
+		}
+		.flex * {
+			width: 100%;
+		}
 		body {
-			font-size: 14px;
+/*			font-size: 14px;*/
 		}
 		.img {
-			width: calc(50% - 10px);
-			margin: auto;
-			left: 0;
-			right: 0;
-			text-align: center;
+			top: inherit;
+			bottom: 10px;
+			transform: none;
+			display: flex;
+			gap: 10px;
+			box-sizing: border-box;
+			padding: 0 10px;
+			text-align: right;
+			align-items: flex-end;
+			flex-direction: row-reverse;
+
 		}
 		.img p {
-			max-width: 150px;
-			display: block;
-			margin: auto;
+		width: 50%;
+
 		}
 
 		img {
-			width: 100%;
+			width: 50%;
 		}
 
 }
