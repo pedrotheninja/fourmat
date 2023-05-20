@@ -108,20 +108,20 @@ img {
 	
 	.flex {
 		flex-direction: column;
-		height: 50vh;
-		justify-content: space-between;
+/*		height: 50vh;*/
+/*		justify-content: space-between;*/
 	}
 	.flex * {
 		width: 100%;
 	}
 	.img {
-		right: 0;
+		/*right: 0;
 		text-align: right;
 		padding: 10px;
 		top: inherit;
 		bottom: 0;
 		transform: none;
-		width: fit-content;
+		width: fit-content;*/
 	}	
 }
 @media (max-width: 400px) {
