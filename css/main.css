@@ -64,7 +64,7 @@ body {
 }
 
 img {
-	width: 282px;
+	width: 237px;
 }
 
 .flex {
@@ -105,6 +105,7 @@ img {
 
 }*/
 @media (max-width: 710px) {
+	
 	.flex {
 		flex-direction: column;
 		height: 100vh;
@@ -115,22 +116,19 @@ img {
 	}
 	.img {
 		right: 0;
-/*		width: 50%;*/
 		text-align: right;
 		padding: 10px;
 		top: inherit;
 		bottom: 0;
 		transform: none;
 		width: fit-content;
-	}
-	.img p {
-/*		transform: rotate(90deg);*/
-/*		transform-origin: 100% 100%;*/
-/*		width: 283px;*/
+	}	
+}
+@media (max-width: 400px) {
+	body {
+		font-size: 14px;
 	}
 	img {
-/*		width: auto;*/
-/*		height: 50vh;*/
+		width: 222px;
 	}
 }
-
