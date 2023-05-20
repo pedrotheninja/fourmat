@@ -76,7 +76,7 @@ img {
 .flex * {
 	width: 25%;
 }
-@media (max-width: 710px) {
+/*@media (max-width: 710px) {
 		.flex {
 			flex-wrap: wrap;
 		}
@@ -103,4 +103,34 @@ img {
 		}
 		img {width: 100%}
 
+}*/
+@media (max-width: 710px) {
+	.flex {
+		flex-direction: column;
+		height: 100vh;
+		justify-content: space-between;
+	}
+	.flex * {
+		width: 100%;
+	}
+	.img {
+		right: 0;
+/*		width: 50%;*/
+		text-align: right;
+		padding: 10px;
+		top: inherit;
+		bottom: 0;
+		transform: none;
+		width: fit-content;
+	}
+	.img p {
+/*		transform: rotate(90deg);*/
+/*		transform-origin: 100% 100%;*/
+/*		width: 283px;*/
+	}
+	img {
+/*		width: auto;*/
+/*		height: 50vh;*/
+	}
 }
+
